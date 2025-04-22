@@ -5,7 +5,7 @@ import { CircularProgress, Box } from '@mui/material';
 
 // Mock function to simulate backend response
 const summarizeUrl = async (url) => {
-    const res = await fetch('http://localhost:8080/api/summarize', {
+    const res = await fetch('https://ai-content-extractor-server-km9x.vercel.app/api/summarize', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
